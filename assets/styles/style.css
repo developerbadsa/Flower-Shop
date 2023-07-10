@@ -147,3 +147,15 @@ body{
     width: 300px;
     min-height: 370px;
 }
+/* Lastest Deal CSS */
+.lastest-deal{
+    background: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+.lastest-input{
+    padding: 20px 500px 20px 20px;
+    
+
+}
