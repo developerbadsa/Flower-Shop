@@ -136,3 +136,14 @@ body{
     width: 300px;
     margin: 100px 0;
 }
+/* Instagram CSS */
+.instagram-boxs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px 0;
+}
+.instagram-box{
+    width: 300px;
+    min-height: 370px;
+}
