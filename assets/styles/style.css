@@ -11,7 +11,6 @@ body{
 .container{
     width: 1440px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .container-fluid{
     width: 100%;
@@ -26,6 +25,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    margin: 20px 0;
 }
 .section-description{
     color: #27272799;
@@ -35,7 +35,7 @@ body{
     font-weight: 400;
     line-height: 30px;
 }
-/* Header Banner */
+/* Header Banner Section*/
 .banner-section{
     background: #e554731a;
 }
@@ -72,4 +72,37 @@ body{
 .banner-img img{
     width: 600px;
     margin-top: 50px;
+}
+/* Featured section*/
+.featured-boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured-box1{    
+    background: #a7216226;
+}
+.featured-box2{    
+    background: #0597A026;
+}
+.featured-box3{    
+    background: #477D1126;
+}
+
+.featured-box-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+    height: 450px;
+    border-start-end-radius: 50%;
+    border-start-start-radius: 50%;
+    margin: 0 20px;
+}
+.featured-box-inner img{
+    width: 280px;
+}
+.featured-box-inner h5{
+    text-align: center
 }
