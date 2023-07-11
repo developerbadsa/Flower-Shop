@@ -9,7 +9,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .container{
-    width: 1440px;
+    width: 1280px;
     margin: 0 auto;
 }
 .container-fluid{
@@ -193,4 +193,5 @@ footer{
     font-size: 16px;
     font-weight: 400;
     margin: 30px 0;
+    text-shadow:0 1px #ffffff1a;
     }
