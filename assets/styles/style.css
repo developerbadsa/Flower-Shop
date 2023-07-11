@@ -40,7 +40,12 @@ body{
     font-weight: 400;
     line-height: 30px;
 }
-/* Header Banner Section*/
+/* Header CSS */
+.navbar{
+    background: #111010;
+    display: flex;
+}
+/* Banner Section*/
 .banner-section{
     background: #e554731a;
 }
