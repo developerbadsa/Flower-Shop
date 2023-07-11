@@ -32,6 +32,10 @@ body{
     font-weight: 800;
     margin: 20px 0;
 }
+.section-title span{
+    color: #E55473;
+}
+
 .section-description{
     color: #27272799;
     text-align: center;
@@ -224,7 +228,9 @@ header{
     border: none;
     border-radius: 5px;
     margin-right: 10px;
-
+}
+.lastest-input:focus{
+    outline: none;
 }
 /* Footer CSS */
 footer{
