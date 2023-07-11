@@ -41,9 +41,30 @@ body{
     line-height: 30px;
 }
 /* Header CSS */
-.navbar{
+header{
     background: #111010;
+}
+.navbar{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+    margin-right: 50px;
+}
+.menu li a{
+    color: rgba(255, 255, 255, 0.90);
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
 }
 /* Banner Section*/
 .banner-section{
