@@ -9,7 +9,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 .container{
-    width: 1280px;
+    width: 1440px;
     margin: 0 auto;
 }
 .container-fluid{
@@ -118,6 +118,32 @@ body{
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
+}
+/* Service CSS */
+.service-inner{
+    border-radius: 10px;
+    background: #2727270d;
+    padding: 80px 0;
+}
+.service-boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box img{
+    width: 88px;
+}
+.service-box h6{
+    color: #272727cc;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin: 20px 0;
 }
 /* Hot Deal CSS */
 .hotdeal-inner{
